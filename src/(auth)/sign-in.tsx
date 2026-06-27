@@ -9,7 +9,7 @@ export default function SignInScreen() {
 
   useEffect(() => {
     if (session?.status === 'active') {
-      router.replace('/../(home)/index')
+      router.replace('../(home)/index')
     }
   }, [session?.status, router])
 
